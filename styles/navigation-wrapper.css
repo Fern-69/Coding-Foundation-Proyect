@@ -1,0 +1,80 @@
+.navigation-wrapper {
+    font-family: 'Mukta', sans-serif ;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    
+}
+
+.navigation-wrapper>.left-column img {
+    width: 220px;
+}
+
+.navigation-wrapper>.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 80px 0px 0px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navigation-wrapper>.center-column h3{
+    color: rgb(203,155,49); 
+    margin-bottom: -5px;
+}
+
+.navigation-wrapper>.center-column>.list{
+    display: flex;
+    width: 350px;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper>.center-column>.list>.spark{
+    color: rgb(173,170,168);
+    font-weight: lighter;
+    margin-left:20px;
+}   
+
+.navigation-wrapper>.right-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.navigation-wrapper>.right-column>.create {
+    background-color: rgb(54, 56, 63);
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 10px 40px;
+}
+
+.navigation-wrapper>.right-column> .search-icon {
+    color: rgb(92, 93, 97);
+    width: 30px;
+    font-size: 2.0em;
+    padding: 20px;
+}
+
+.navigation-wrapper>.right-column> .log-in {  
+    background-color: rgb(54, 56, 63);
+    border-radius: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+    padding: 10px 40px;
+}
+
+.navigation-wrapper>.right-column> .sing-up {
+    background-color: rgb(54, 56, 63);
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 10px 40px;
+}

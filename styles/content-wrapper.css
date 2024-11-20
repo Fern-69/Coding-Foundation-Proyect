@@ -1,0 +1,112 @@
+.main-content-page {
+    background: linear-gradient(to right, rgba(23,23,23,1) 0%, rgba(36,36,36,1) 0%, rgba(127,127,127,1) 0%, rgba(130,130,130,1) 0%, rgba(112,112,112,1) 12%, rgba(23,23,23,1) 100%);
+    font-family: 'Mukta', sans-serif ;
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-content-page >.left-column-page-content {
+    padding: 0px 0px 10px 55px;
+  
+}
+
+.main-content-page>.left-column-page-content>.text-wrapper{
+    width: 650px;
+}
+
+.main-content-page >.left-column-page-content p {
+    color:white;
+    font-size: 2.5em;
+    font-weight: lighter;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+}
+
+#two{
+    color:white;
+    font-size: 2.1em;
+    font-weight: lighter;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+}
+
+.main-content-page >.left-column-page-content>.buttons-wrapper{
+    display: flex;
+    justify-content: left;
+    padding: 30px 0px;
+}
+
+.buttons-wrapper > .left-button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(75, 206, 121);
+    color: black;
+    border-radius: 5px;
+    padding: 0px 40px; 
+    height: 50px;
+}
+
+.buttons-wrapper > .left-button h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.buttons-wrapper>.right-button {
+    display: flex;
+    align-items: center;
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 0px 30px; 
+    height: 50px;
+}
+.buttons-wrapper>.right-button h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0; 
+}
+
+.main-content-page >.right-column-page-content {
+   display:grid;
+   margin-bottom: 5px;
+}
+
+.main-content-page>.right-column-page-content>.text-wrapper{
+    display:flex;
+    align-content: space-around;
+    margin-bottom: -25px;
+    margin-left: -65px;
+}
+
+#white-one{
+    color:white;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    text-indent: 9rem;
+    font-weight: 900; 
+}
+
+#blue{
+    color:rgb(122,219,248);
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+}
+
+#white-two{
+    color:white;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    font-weight: 900; 
+}
+
+.main-content-page >.right-column-page-content img{
+    width: 90%;
+    padding: 0px 0px 0px 20px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
